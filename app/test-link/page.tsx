@@ -20,11 +20,11 @@ export default function TestLinkPage() {
         <li>
           <Link href="/test-form">Go to Test Form Page</Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/test-link?query=abc" scroll={false}>
             Link with query & no scroll
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link href="/test-link" replace>
             Link with replace
