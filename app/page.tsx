@@ -1,4 +1,5 @@
-import Image from "next/image";
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -12,6 +13,22 @@ export default function Home() {
           height={38}
           priority
         />
+        <h2>Test Pages:</h2>
+        <ul>
+          <li>
+            <Link href="/test-use-router">Test useRouter</Link>
+          </li>
+          <li>
+            <Link href="/test-link">Test Link Component</Link>
+          </li>
+          <li>
+            <Link href="/test-form">Test Form Component</Link>
+          </li>
+          <li>
+            <Link href="/my-test-page">Test My Test Page</Link>
+          </li>
+        </ul>
+        
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{" "}
